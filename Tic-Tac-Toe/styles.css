@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    height: 100vh; /* Ensure the body takes up the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    padding: 7px;
+    box-sizing: border-box; /* Ensures padding is included in the total width/height */
+    width: 500px; /* Full width of the container */
+    height: 500px;  
+}
+  
+  .main {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Create 3 columns of equal width */
+    grid-template-rows: repeat(3, 1fr); /* Create 3 rows of equal height */
+    gap: 5px; /* Add space between grid items */
+    width: 100%; /* Full width of the container */
+    height: 100%; /* Full height of the container */
+  }
+  
+  .body {
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px; /* Set font size for text */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    user-select: none; /* Prevent text selection */
+  }
