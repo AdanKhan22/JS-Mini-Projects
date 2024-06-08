@@ -1,0 +1,61 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+    background-image: url(background.png);
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+h1{
+    margin-bottom: 200px;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+.wrapper{
+
+  position: relative;
+  background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+  height: 500px;
+  width: 500px;
+  top: -100px;
+  border: 3px solid skyblue;
+  
+}
+
+h2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+    padding-left:10px ;
+    padding-right:10px ;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.radio-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.option{
+    text-align: center;
+    line-height: 50px;
+    width: 75%;
+    height: 50px;
+    border:2px seagreen solid;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5rem;
+}
